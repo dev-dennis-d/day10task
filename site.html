@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <style>
+        .carousel-inner img {
+          padding:20px ;
+           width: 100%; /* Set the width to 100% to fit the carousel's width */
+           height: 500px; /* Specify the desired height */
+           object-fit: cover; /* This will crop the image to fit within the specified dimensions */
+}
+  nav{
+    
+    background-color: black;color: grey;
+  }
+    .card{
+      padding: 15px;
+    }
+    .mb-3{
+      padding: 30px;
+    }
+    body {
+            background-image: url('back.jpg'); /* Specify the path to your image */
+            background-size: cover; /* Cover the entire screen while maintaining aspect ratio */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center; /* Center the image */
+        }
+     </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="padding-left: 30px;">St.Mary's Decorations</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>     
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <!--
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+              -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="stage1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="stage2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="stage3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       
+       <div>
+        <h2 style="text-align: center;">Our Services</h2>
+       </div>
+
+       <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px;">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Engagement</h5>
+              <img src="hand.png" alt="";>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Wedding</h5>
+              <img src="wedding.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Baptism</h5>
+              <img src="baby.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+        <h2 style="text-align: center;">Gallery</h2>
+        </div>
+        <div class="card-group" style="padding: 20px;">
+          <div class="card">
+            <img src="eng.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card">
+            <img src="wed.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card">
+            <img src="bapt.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+       </div>
+       <div>
+        <h2 style="text-align: center;">What Our Customers Say</h2>
+       </div>
+       <div class="card-group" style="padding: 30px;text-align: center;">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Alen Mathew</h5>
+            <p class="card-text">"I couldn't have asked for a more stunning setup for our wedding reception! The team perfectly captured the theme we wanted—elegant and romantic. The floral arrangements, lighting, and backdrop were breathtaking. Every little detail, from the candles to the draping, was done with such care. It truly made our day feel magical, and we got endless compliments from our guests. Highly recommend!"</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Alex Joseph</h5>
+            <p class="card-text">"We hired them for our corporate event, and they did an amazing job transforming the venue. The stage design was sleek and modern, exactly what we were going for. The LED lighting added the perfect touch to create an engaging atmosphere. While the overall execution was great, there was a slight delay in setting up, which made us a bit nervous. But the end result was impressive, and we would definitely use them again."</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Jacob Varghese</h5>
+            <p class="card-text">"Absolutely fantastic service! We used them for my daughter's 18th birthday party, and they went above and beyond to bring her vision to life. The stage was vibrant and youthful, with stunning balloon arches and colorful backdrops that matched the theme perfectly. The attention to detail was impeccable, and they were a pleasure to work with from start to finish. Can't recommend them enough for any special occasion!"</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 style="text-align: center;">Contact Us</h2>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div style="padding: 30px;">
+        <input class="btn btn-primary" type="submit" value="Submit">
+      </div>
+      
+ 
+</body>
+</html>
